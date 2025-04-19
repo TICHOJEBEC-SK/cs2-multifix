@@ -15,6 +15,7 @@ A CS# plugin that allows mappers to utilize trigger_multiple for basevelocity bo
 
 ### Notes
 - This plugin respects filter_activators if they exist for the boost / existing multiple
+- sv_gravity is utilizing replicateconvar, so it will only activate for the local player
 ### Future Builds
 - Add host_timescale modification
 - Add sv_accelerate modification
