@@ -8,7 +8,7 @@ A CS# plugin that allows mappers to utilize trigger_multiples for basevelocity b
 
 ## Creating usable triggers in Hammer
 ### Features and use
-**Simply name the trigger_multiple using the convention below and it will run OnEndTouch**
+**Simply `name` the trigger_multiple using the convention below and it will run OnEndTouch**
 - `boost_speed500_z250` -> Creates a 500 directional speed boost / 250z (up) boost for player
 - `boost_speed-500` -> Creates a -500 speed reduction for player
 - `gravity_time1_amount200` -> sets player sv_gravity to 200 for 1 second
