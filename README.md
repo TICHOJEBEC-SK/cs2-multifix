@@ -5,6 +5,7 @@ A CS# plugin that allows mappers to utilize trigger_multiples for basevelocity b
 
 ## How to use
 1.) install plugin to addons folder
+
 2.) restart server or `css_plugins load cs2-multifix` in console
 
 ## Source2 Hammer
