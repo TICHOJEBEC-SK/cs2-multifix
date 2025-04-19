@@ -19,3 +19,24 @@ A CS# plugin that allows mappers to utilize trigger_multiple for basevelocity bo
 ### Future Builds
 - Add host_timescale modification
 - Add sv_accelerate modification
+
+GitHub: https://github.com/shizangle/cs2-multifix
+Map Test: https://steamcommunity.com/sharedfiles/filedetails/?id=3466802425
+
+Additionally, there are plenty of maps that have broken basevelocity boosts which are ported, these can be quickly fixed with cs2-multifix by using cs2stripper and replacing the targetname with the multifix convention. Here is an example for bhop_98sync
+
+```{
+    "modify": [
+        {
+            "match":
+            {
+                "classname": "trigger_multiple",
+                "origin": "-201.870117 2003.469971 -686.250000"
+            },
+            "replace":
+            {
+                "targetname": "boost_z1500"
+            }
+        }
+    ]
+}```
