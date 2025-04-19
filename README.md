@@ -13,3 +13,6 @@ A CS# plugin that allows mappers to utilize trigger_multiples for basevelocity b
 - `boost_speed-500` -> Creates a -500 speed reduction for player
 - `gravity_time1_amount200` -> sets player sv_gravity to 200 for 1 second
 - `nojump` -> Create a large trigger_multiple box where you don't want the player to be able to get jump units. It will activate onstarttouch, and deactivate onendtouch
+
+### Notes
+- This plugin respects filter_activators if they exist for the boost / existing multiple
