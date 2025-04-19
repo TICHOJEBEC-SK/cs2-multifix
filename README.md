@@ -6,7 +6,7 @@ A CS# plugin that allows mappers to utilize trigger_multiples for basevelocity b
 
 2.) restart server or `css_plugins load cs2-multifix` in console
 
-## Source2 Hammer
+## Creating usable triggers in Hammer
 ### Features and use
 **Simply name the trigger_multiple using the convention below and it will run OnEndTouch**
 - `boost_speed500_z250` -> Creates a 500 directional speed boost / 250z (up) boost for player
