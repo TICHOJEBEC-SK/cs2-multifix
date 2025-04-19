@@ -1,12 +1,12 @@
 # cs2-multifix
 A CS# plugin that allows mappers to utilize trigger_multiple for basevelocity boosts, gravity, and nojump by simply naming a trigger_multiple
 
-## Server Owners: How to use
+## **Server Owners**: How to use
 1.) install plugin to addons folder
 
 2.) restart server or `css_plugins load cs2-multifix` in console
 
-## Mappers: How to use
+## **Mappers**: How to use
 ### Features and use
 **Simply `name` the trigger_multiple using the convention below and it will run OnEndTouch**
 - `boost_speed500_z250` -> Creates a 500 directional speed boost / 250z (up) boost for player
