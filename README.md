@@ -1,5 +1,5 @@
 # cs2-multifix
-A CS# plugin that allows mappers to utilize trigger_multiples for basevelocity boosts/gravity manipulation/nojump
+A CS# plugin that allows mappers to utilize trigger_multiple for basevelocity boosts, gravity, and nojump by simply naming a trigger_multiple
 
 ## Server Owners: How to use
 1.) install plugin to addons folder
@@ -16,3 +16,6 @@ A CS# plugin that allows mappers to utilize trigger_multiples for basevelocity b
 
 ### Notes
 - This plugin respects filter_activators if they exist for the boost / existing multiple
+### Future Builds
+- Add host_timescale modification
+- Add sv_accelerate modification
