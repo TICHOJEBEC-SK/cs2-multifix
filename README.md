@@ -25,7 +25,8 @@ Map Test: https://steamcommunity.com/sharedfiles/filedetails/?id=3466802425
 
 Additionally, there are plenty of maps that have broken basevelocity boosts which are ported, these can be quickly fixed with cs2-multifix by using cs2stripper and replacing the targetname with the multifix convention. Here is an example for bhop_98sync
 
-```{
+```
+{
     "modify": [
         {
             "match":
@@ -40,3 +41,4 @@ Additionally, there are plenty of maps that have broken basevelocity boosts whic
         }
     ]
 }
+```
