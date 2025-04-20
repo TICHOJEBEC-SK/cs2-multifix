@@ -39,4 +39,4 @@ Additionally, there are plenty of maps that have broken basevelocity boosts whic
             }
         }
     ]
-}```
+}
