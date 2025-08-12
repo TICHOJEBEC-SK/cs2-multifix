@@ -29,8 +29,8 @@ namespace BoosterPlugin
         {
             _plugin = plugin;
             string signature = RuntimeInformation.IsOSPlatform(OSPlatform.Linux)
-                ? "55 48 89 E5 41 57 41 56 41 55 41 54 49 89 FC 53 48 83 EC 38 48 8B 7F 30"
-                : "40 56 57 48 81 EC ? ? ? ? 4C 8B 49";
+                ? "55 48 89 E5 41 57 41 56 41 55 41 54 49 89 F4 53 48 89 FB 48 83 EC 48 48 8B 7F 30"
+                : "40 57 41 57 48 81 EC ? ? ? ? 48 83 79 30 ?";
 
             _processMovement = new MemoryFunctionVoid<CCSPlayer_MovementServices, IntPtr>(signature);
             LogWithTimestamp($"[cs2-multifix] Loading with compatible ProcessMovement hook for {(RuntimeInformation.IsOSPlatform(OSPlatform.Linux) ? "Linux" : "Windows")}...");
